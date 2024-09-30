@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painted Horizon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="parallax">
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html" class="logo">Painted Horizon</a></h1> 
+            <ul class="menu">
+                <a href="about.html">About Us</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Shop <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="shop.html">All</a>  
+                        <a href="paintcolours.html">Paint Colours</a>
+                        <a href="brushes.html">Brushes & Rollers</a>
+                        <a href="supplies.html">Supplies</a>
+                    </div>
+                </div>
+                <a href="workshops.html">Workshops</a>
+                <a href="contact.html" class="contactbtn">Contact us</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Shop Page -->
+    <section id="shop">
+        <h2>Shop</h2>
+        <div class="sectiondiscription">
+
+          <h3>Paint Brushes & Rollers </h3>
+          <p>Our paintbrushes and rollers are carefully selected to provide the best tools for any craft project. Whether you're working on fine details or covering large surfaces, our selection ensures you have the right tool for every job. </p>
+          <p>Our collection of brushes and rollers is designed specifically for arts and crafts enthusiasts. We offer a wide range of paintbrushes, from fine detail brushes ideal for intricate work to larger brushes for broad strokes and washes. We also carry foam rollers, perfect for covering larger craft surfaces smoothly and evenly. Whether you're a beginner</p>
+          
+        </div>
+
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/paintbrush.jpg" alt="One Brush" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Single Brush</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R7.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Single Brush', 7)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+         <div class="product-card">
+            <div class="gallery">
+                <img src="_images/brush_set.webp" alt="Brush Set" class="image" style="width:90%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Brush Set</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R30.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Brush Set', 30)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/roller.jpg" alt="Roller" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Roller</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R30.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Roller', 30)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="clearfix"></div>
+
+        <button class="gocartbtn" onclick="goToCart()">Go to Cart</button>
+        <script src="script.js"></script>
+
+        <div class="tips">
+
+          <h4>Usage Tips:</h4>
+          <ul>
+              <li>Choose the right brush for your project: detail brushes for fine work, flat brushes for broad strokes, and foam rollers for large, smooth surfaces. </li>
+              <li>Rinse brushes between color changes to maintain clean, vibrant results. </li>
+              <li>Use foam rollers for a smooth, even finish on larger surfaces like wood panels or fabric. </li>
+          </ul>
+          <h4>Cleaning:</h4>
+          <ul>
+              <li>Rinse brushes thoroughly with warm water and mild soap, then reshape bristles and let dry. </li>
+              <li>Clean rollers by rinsing under warm water until all paint residue is gone, then squeeze out excess water and let air dry. </li>
+          </ul>
+
+
+        </div>
+
+
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <p>&copy; 2024 Painted Horizon</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>    

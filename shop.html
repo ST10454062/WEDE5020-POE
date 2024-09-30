@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painted Horizon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="parallax">
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html" class="logo">Painted Horizon</a></h1>
+            <ul class="menu">
+                <a href="about.html">About Us</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Shop <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="shop.html">All</a>  
+                      <a href="paintcolours.html">Paint Colours</a>
+                      <a href="brushes.html">Brushes & Rollers</a>
+                      <a href="supplies.html">Supplies</a>
+                    </div>
+                </div>
+                <a href="workshops.html">Workshops</a>
+                <a href="contact.html" class="contactref">Contact us</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Shop Page -->
+    <section id="shop">
+        <h2>Shop</h2>
+
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/red.jpeg" alt="Red Paint" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Red Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Red Paint', 25)">Add to Cart</button>
+                <!-- Source: W3Schools (2024) *JavaScript HTML DOM Event Object*. Available at: https://www.w3schools.com/jsref/event_onclick.asp. -->
+              </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/green.jpeg" alt="Green Paint" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Green Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Green Paint', 25)">Add to Cart</button>
+              </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/orange.jpeg" alt="Orange Paint" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Orange Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Orange Paint', 25)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/blue.jpeg" alt="Blue Paint" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Blue Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Blue Paint', 25)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/yellow.jpeg" alt="yellow Paint" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Yellow Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Yelllow Paint', 25)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/purple.jpeg" alt="Purple Paint" class="image">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Purple Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Purple Paint', 25)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/black.jpeg" alt="Black Paint" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Black Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Black Paint', 25)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+              <img src="_images/white.jpeg" alt="White Paint" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">White Paint</h4>
+                  <div class="quantity">75ml</div>
+                  <div class="price">R25.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('White Paint', 25)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+
+        <!-- brushes, rollers -->
+
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/paintbrush.jpg" alt="One Brush" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Single Brush</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R7.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Single Brush', 7)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+         <div class="product-card">
+            <div class="gallery">
+                <img src="_images/brush_set.webp" alt="Brush Set" class="image" style="width:90%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Brush Set</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R30.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Brush Set', 30)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/roller.jpg" alt="Roller" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Roller</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R30.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Roller', 30)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+
+        <!-- paint supplies -->
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/canvas.jpg" alt="Canvas" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Canvas</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R40.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Canvas', 40)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/easel.jpg" alt="Easel" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Easel</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R60.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Easel', 60)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/extensionpole.jpeg" alt="Extension poles" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Extension pole</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R35.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Extension pole', 35)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/dropcloth.jpg" alt="drop cloth" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">Drop cloth</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R15.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('Drop cloth', 15)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+        <div class="product-card">
+            <div class="gallery">
+                <img src="_images/painttray.jpeg" alt="paint tray" class="image" style="width:100%">
+              <div class="details"> 
+                <div class="text-container">
+                  <h4 class="title">One Paint tray</h4>
+                  <div class="quantity">.    </div>
+                  <div class="price">R15.00</div>
+                </div>
+                <button class="addbtn" onclick="addToCart('One Paint tray', 15)">Add to Cart</button>
+              </div>
+            </div>
+         </div>
+
+        <div class="clearfix"></div>
+
+        <button class="gocartbtn" onclick="goToCart()">Go to Cart</button>
+        <script src="script.js"></script>
+                 
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <p>&copy; 2024 Painted Horizon</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>    

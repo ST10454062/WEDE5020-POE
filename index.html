@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painted Horizon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="parallax">
+    <header>
+    <nav class="navbar">
+        <h1><a href="index.html" class="logo">Painted Horizon</a></h1>
+        <ul class="menu">
+            <a href="about.html">About Us</a>
+            <div class="subnav">
+                <button class="subnavbtn">Shop <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                  <a href="shop.html">All</a>  
+                  <a href="paintcolours.html">Paint Colours</a>
+                  <a href="brushes.html">Brushes & Rollers</a>
+                  <a href="supplies.html">Supplies</a>
+                </div>
+            </div>
+            <a href="workshops.html">Workshops</a>
+            <a href="contact.html">Contact us</a>
+        </ul>
+    </nav>
+    </header>
+
+
+    <main>
+        <!-- Main Section -->
+        <section class="main">
+            <div class="main-text">
+                <h2>Unleash Your Creativity—</h2>
+                <h3>Where Every Color Tells a Story</h3>
+                <p>At Painted Horizon, we believe that every color tells a story, and every brushstroke has the power to transform a space or bring an idea to life. Whether you're a seasoned professional or a passionate DIY enthusiast, our curated selection of premium paints, tools, and supplies is designed to inspire and empower your creativity. From bold accent walls to intricate works of art, we're here to help you make every project a masterpiece. </p>
+                <p>Explore our wide range of products or join one of our expert-led workshops to learn new techniques and connect with fellow creators. At Painted Horizon, your imagination is our palette. ~let's create something beautiful together.  </p>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-card">
+                <div class="gallery">
+                    <a href="supplies.html">
+                        <img src="_images/easel.jpg" alt="Easel" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="middle-text">Easel</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="gallery">
+                    <a href="paintcolours.html">
+                        <img src="_images/red.jpeg" alt="Red Paint" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="middle-text">Red Paint</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="gallery">
+                    <a href="brushes.html">
+                        <img src="_images/brush_set.webp" alt="Brush Set" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="middle-text">Brush Set</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <button class="shopnowbtn" onclick="shopnow()">Shop now</button>
+            <script src="script.js"></script>
+        </section>
+
+        <!-- Upcoming Workshops -->
+        <section class="workshops">
+            <h2>Workshops</h2>
+            <div class="product-card">
+                <div class="gallery">
+                    <a href="workshops.html">
+                        <img src="_images/workshop.webp" alt="workshops">
+                    </a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <button class="workshopbtn" onclick="joinaworkshop()">Join a workshop</button>
+            <script src="script.js"></script>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <p>&copy; 2024 Painted Horizon</p>
+        </div>
+    </footer>
+</body>
+</html>

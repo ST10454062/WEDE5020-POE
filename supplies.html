@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painted Horizon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="parallax">
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html" class="logo">Painted Horizon</a></h1> 
+            <ul class="menu">
+                <a href="about.html">About Us</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Shop <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="shop.html">All</a>  
+                        <a href="paintcolours.html">Paint Colours</a>
+                        <a href="brushes.html">Brushes & Rollers</a>
+                        <a href="supplies.html">Supplies</a>
+                    </div>
+                </div>
+                <a href="workshops.html">Workshops</a>
+                <a href="contact.html" class="contactbtn">Contact us</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Shop Page -->
+    <section id="shop">
+        <h2>Shop</h2>
+        <div class="sectiondiscription">
+
+          <h3>Accessories and Supplies List </h3>
+          <p>Painted Horizon provides all the essential supplies you need for your arts and crafts projects. From palettes and mixing cups to glue and sealants, our craft supplies ensure that you have everything necessary to complete your projects with ease. We stock only the best materials to help you create beautiful, lasting works of art. </p>
+          <p>Explore our range of painting accessories designed to enhance your crafting experience. We offer a variety of items, including palette knives, detail sponges, stencil brushes, paint sealers, and storage solutions. These accessories are carefully selected to complement your creative process, making your projects more efficient and enjoyable. </p>
+          
+        </div>
+
+        <div class="product-card">
+          <div class="gallery">
+              <img src="_images/canvas.jpg" alt="Canvas" class="image" style="width:100%">
+            <div class="details"> 
+              <div class="text-container">
+                <h4 class="title">Canvas</h4>
+                <div class="quantity">.    </div>
+                <div class="price">R40.00</div>
+              </div>
+              <button class="addbtn" onclick="addToCart('Canvas', 40)">Add to Cart</button>
+            </div>
+          </div>
+       </div>
+      <div class="product-card">
+          <div class="gallery">
+              <img src="_images/easel.jpg" alt="Easel" class="image" style="width:100%">
+            <div class="details"> 
+              <div class="text-container">
+                <h4 class="title">Easel</h4>
+                <div class="quantity">.    </div>
+                <div class="price">R60.00</div>
+              </div>
+              <button class="addbtn" onclick="addToCart('Easel', 60)">Add to Cart</button>
+            </div>
+          </div>
+       </div>
+      <div class="product-card">
+          <div class="gallery">
+              <img src="_images/extensionpole.jpeg" alt="Extension poles" class="image" style="width:100%">
+            <div class="details"> 
+              <div class="text-container">
+                <h4 class="title">Extension pole</h4>
+                <div class="quantity">.    </div>
+                <div class="price">R35.00</div>
+              </div>
+              <button class="addbtn" onclick="addToCart('Extension pole', 35)">Add to Cart</button>
+            </div>
+          </div>
+       </div>
+      <div class="product-card">
+          <div class="gallery">
+              <img src="_images/dropcloth.jpg" alt="drop cloth" class="image" style="width:100%">
+            <div class="details"> 
+              <div class="text-container">
+                <h4 class="title">Drop cloth</h4>
+                <div class="quantity">.    </div>
+                <div class="price">R15.00</div>
+              </div>
+              <button class="addbtn" onclick="addToCart('Drop cloth', 15)">Add to Cart</button>
+            </div>
+          </div>
+       </div>
+      <div class="product-card">
+          <div class="gallery">
+              <img src="_images/painttray.jpeg" alt="paint tray" class="image" style="width:100%">
+            <div class="details"> 
+              <div class="text-container">
+                <h4 class="title">One Paint tray</h4>
+                <div class="quantity">.    </div>
+                <div class="price">R15.00</div>
+              </div>
+              <button class="addbtn" onclick="addToCart('One Paint tray', 15)">Add to Cart</button>
+            </div>
+          </div>
+       </div>
+        <div class="clearfix"></div>
+
+        <button class="gocartbtn" onclick="goToCart()">Go to Cart</button>
+        <script src="script.js"></script>
+
+        <div class="tips">
+          <h4>Usage Tips:</h4>
+        <ul>
+            <li><strong>Paint Extension Poles:</strong> Attach to your paint roller to reach high or hard-to-access areas easily. Ideal for large walls or ceilings.</li>
+            <li><strong>Canvas:</strong> Choose the right canvas size and texture for your project. Stretched canvases are great for painting, while canvas boards are perfect for smaller works.</li>
+            <li><strong>Paint Trays:</strong> Use for holding and mixing paint. Opt for trays with liners for easy cleanup and those with multiple compartments for different colors.</li>
+            <li><strong>Drop Cloths:</strong> Protect your workspace by covering floors and furniture. Select durable, washable cloths for repeated use or disposable ones for quick cleanups.</li>
+        </ul>
+        <h4>Cleaning:</h4>
+        <ul>
+            <li><strong>Paint Extension Poles:</strong> Wipe down with a damp cloth after use. Ensure any paint residue is removed from the handle and attachment areas.</li>
+            <li><strong>Canvas:</strong> Store in a dry, dust-free place. Avoid exposure to direct sunlight to prevent fading.</li>
+            <li><strong>Paint Trays:</strong> Rinse thoroughly with warm water and mild soap. For stubborn paint, use a brush to scrub the tray before rinsing.</li>
+            <li><strong>Drop Cloths:</strong> Wash in cold water with mild detergent. Ensure they are fully dry before storing.</li>
+        </ul>
+
+
+        </div>
+
+
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <p>&copy; 2024 Painted Horizon</p>
+        </div>
+    </footer>
+
+    
+</body>
+</html>    
