@@ -237,6 +237,13 @@ div.gallery {
   padding: 20px; /* Optional padding inside the box */
 }
 
+.featured-text{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
 
 
 
