@@ -539,13 +539,26 @@ iframe {
 /* Responsive Design */
 @media (max-width: 768px) {
   iframe {
-    width: 100%;
-    height: 300px;
+    width: 100%; /* Ensure the iframe fills the available width */
+    height: auto; 
   }
 
-  .contact-info, .business-hours, .contact-form, .social-media {
+  .contact-info,
+  .business-hours,
+  .contact-form,
+  .social-media {
     padding: 10px;
+    width: 100%; /* Make sure these elements take full width */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    text-align: left; /* Align text to the left */
+    margin-left: 0; /* Remove margin on the left to keep it flush with the edge */
   }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between form fields */
+  }
+
 }
 
 
