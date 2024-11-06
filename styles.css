@@ -891,17 +891,84 @@ main.cart {
 
 
 
-
-
+/* Footer Section */
 footer {
   background-color: #ffffff;
   color: #fff;
+  padding: 20px;
   text-align: center;
-  padding: 10px 0;
   width: 100%;
-  bottom: 0;
 }
 
-.footer-links{
-  color: black;
+.newsletter-section {
+  background-color: #f2f2f2; /* Very light grey, almost white */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.newsletter-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000; /* Black text for the header */
+}
+
+.newsletter-section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #000; /* Black text for the description */
+}
+
+.newsletter-section form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter-section input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.newsletter-section button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(29, 108, 245);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.newsletter-section button:hover {
+  background-color: rgb(29, 108, 245);
+}
+
+/* Footer Links and Other Content */
+.footer-content {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #000; /* Black text for footer content */
+}
+
+.footer-content a {
+  color: #000; /* Black links */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Copyright Section */
+footer p {
+  font-size: 14px;
+  margin-top: 20px;
+  color: #000; /* Black text for copyright */
 }

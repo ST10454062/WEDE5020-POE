@@ -98,10 +98,20 @@
         </section>
     </main>
 
-    <footer>
-        <div class="footer-links">
-            <p>&copy; 2024 Painted Horizon</p>
+    <footer> 
+        <!-- Newsletter Form Section -->
+        <div class="newsletter-section">
+            <h3>Receive Our Newsletter</h3>
+            <p>Sign up to get updates, news, and offers!</p>
+            <form action="/submit-newsletter" method="POST">
+                <input type="email" name="email" placeholder="Enter your email address" required />
+                <button type="submit">Subscribe</button>
+            </form>
         </div>
+    
+        <!-- Copyright Section -->
+        <p>&copy; 2024 Painted Horizon</p>
     </footer>
+    
 </body>
 </html>
