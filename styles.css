@@ -949,22 +949,6 @@ footer {
   background-color: rgb(29, 108, 245);
 }
 
-/* Footer Links and Other Content */
-.footer-content {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #000; /* Black text for footer content */
-}
-
-.footer-content a {
-  color: #000; /* Black links */
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.footer-content a:hover {
-  text-decoration: underline;
-}
 
 /* Copyright Section */
 footer p {
