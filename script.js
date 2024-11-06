@@ -1,3 +1,15 @@
+const newsletterForm = document.querySelector('.newsletter-form');
+console.log(newsletterForm);
+if (newsletterForm) {
+    newsletterForm.addEventListener('submit', function(event) {
+        alert('Thank you for subscribing!');
+        newsletterForm.reset();
+    });
+}else {
+    console.error('Newsletter form not found!');
+}
+
+
 function addToCart(paintName, price) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     cart.push({ paintName, price });
@@ -66,3 +78,7 @@ function validateForm(event) {
 document.getElementById('contactForm').addEventListener('submit', function (event) {
     validateForm(event);
 });
+
+
+
+
