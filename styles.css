@@ -81,7 +81,7 @@ header {
   left: 0;
   width: auto;
   min-width: 200px;
-  background-color: #f1f1f1; /* Light background for the dropdown */
+  background-color: #f1f1f1;
   z-index: 1;
   transition: opacity 0.3s ease;
 }
@@ -91,7 +91,7 @@ header {
   text-decoration: none;
 }
 .subnav-content a:hover {
-  background-color: rgb(29, 108, 245); /* Slightly darker hover state for dropdown items */
+  background-color: rgb(29, 108, 245); 
   color: #ffffff;
 }
 .subnav:hover .subnav-content {
@@ -118,7 +118,7 @@ header {
 }
 
 .navbar a:focus, .subnav .subnavbtn:focus {
-  outline: 3px solid #0093b8; /* Focused state for better accessibility */
+  outline: 3px solid #0093b8; 
 }
 
 
@@ -201,10 +201,10 @@ section h1 {
   }
 }
 .gallery {
-  position: relative; /* For absolute positioning of children if needed */
+  position: relative;
   margin-top: 20px;
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack items vertically */
+  display: flex; 
+  flex-direction: column; 
   margin-bottom: 70px;
 }
 .gallery img {
@@ -263,10 +263,10 @@ div.gallery {
   margin-bottom: 100px;
   width: 500px;
   height: 350px;
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  background-color: rgba(255, 255, 255, 0.5); 
   text-align: center;
-  z-index: 1000; /* Keeps it on top of other elements if needed */
-  padding: 20px; /* Optional padding inside the box */
+  z-index: 1000; 
+  padding: 20px;
 }
 
 .featured-text{
@@ -299,7 +299,7 @@ div.gallery {
 #about-us h3 {
   font-size: 28px;
   margin-bottom: 20px;
-  color: black; /* Orange accent color */
+  color: black; 
 }
 .our-story, .our-mission, .meet-the-team {
   background-color: #fff;
@@ -539,7 +539,7 @@ iframe {
 /* Responsive Design */
 @media (max-width: 768px) {
   iframe {
-    width: 100%; /* Ensure the iframe fills the available width */
+    width: 100%; 
     height: auto; 
   }
 
@@ -548,15 +548,15 @@ iframe {
   .contact-form,
   .social-media {
     padding: 10px;
-    width: 100%; /* Make sure these elements take full width */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-    text-align: left; /* Align text to the left */
-    margin-left: 0; /* Remove margin on the left to keep it flush with the edge */
+    width: 100%;
+    box-sizing: border-box; 
+    text-align: left; 
+    margin-left: 0; 
   }
   .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between form fields */
+    gap: 10px; 
   }
 
 }
@@ -565,9 +565,6 @@ iframe {
 
 
 /* workshop.html */
-
-/* Workshop Introduction Section */
-
 .workshop-intro{
   width: 90%;
   margin: 20px auto;
@@ -942,7 +939,7 @@ footer {
 }
 
 .newsletter-section {
-  background-color: #f2f2f2; /* Very light grey, almost white */
+  background-color: #f2f2f2; 
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
@@ -951,13 +948,13 @@ footer {
 .newsletter-section h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #000; /* Black text for the header */
+  color: #000; 
 }
 
 .newsletter-section p {
   font-size: 16px;
   margin-bottom: 20px;
-  color: #000; /* Black text for the description */
+  color: #000; 
 }
 
 .newsletter-section form {
@@ -995,5 +992,5 @@ footer {
 footer p {
   font-size: 14px;
   margin-top: 20px;
-  color: #000; /* Black text for copyright */
+  color: #000; 
 }
